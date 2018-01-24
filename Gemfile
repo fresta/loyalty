@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'dotenv-rails'
 
 # Omnivore API gem
-gem 'omnivore-io'
+gem 'omnivore_api', :git => 'https://github.com/fresta/omnivore_api.git'
 
 # Twilio API Gem
 gem 'twilio-ruby'
