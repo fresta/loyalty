@@ -31,6 +31,8 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# gem dotenv to store secrets
+gem 'dotenv-rails'
 
 # Omnivore API gem
 gem 'omnivore-io'

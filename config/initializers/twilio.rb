@@ -1,6 +1,6 @@
 Twilio.configure do |config|
-  config.account_sid = ''
-  config.auth_token  = ''
+  config.account_sid = ENV['TWILIO_SID']
+  config.auth_token  = ENV['TWILIO_TOKEN']
 end
 TWILIO_FROM = '+14153004778'
 

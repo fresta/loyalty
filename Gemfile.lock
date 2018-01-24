@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/fresta/devise_sms_activable.git
-  revision: 3682d08d4dd699363b2ae05c5781f7dcf8b23b84
+  revision: 85c781ae092c17924114f3f3d12b774115350af9
   specs:
     devise_sms_activable (0.0.9)
       devise (>= 1.1.0)
@@ -71,6 +71,10 @@ GEM
       railties (>= 4.1.0, < 5.2)
       responders
       warden (~> 1.2.3)
+    dotenv (2.2.1)
+    dotenv-rails (2.2.1)
+      dotenv (= 2.2.1)
+      railties (>= 3.2, < 5.2)
     erubi (1.7.0)
     execjs (2.7.0)
     faraday (0.14.0)
@@ -204,6 +208,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   devise_sms_activable!
+  dotenv-rails
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
